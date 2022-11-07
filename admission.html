@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manit website</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .header{
+        border: 2px solid black;
+    }
+    html{
+        height: 100%;
+    }
+body{
+    color: solid black;
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwgo2WyS9xeb1bREebqZF0qvLhNO7KYAp5w&usqp=CAU'); */
+    background-image: linear-gradient(to right bottom, rgba(189, 195, 199, .7) 65%, rgba(98, 125, 152, 0.8)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwgo2WyS9xeb1bREebqZF0qvLhNO7KYAp5w&usqp=CAU");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    /* border: 2px solid red;  */
+}
+.mid{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+     /* border: 2px solid green;  */
+}
+.right{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block;
+    border: solid black;
+    width: 100%;
+    
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    color: black;
+    font: larger;
+    text-decoration: none;
+    padding: 30px 15px;
+}
+.navbar a:active{
+    color: black;
+    font: larger;
+    text-decoration: none;
+    padding: 30px 15px;
+    text-decoration: underline;
+    color: rgb(174, 53, 53);
+}
+</style>
+<body>
+    <header class="header">
+    <div class="left">
+      <img src="img/logo.png" alt="ILVA" height="110px" width="160px">
+    </div>
+    <div class="mid">
+        <center><h4 clas class="subheading">INDORE LOHA VYAPARI ASSOCIATION(regd.)</h4>
+        <h1 class="mainheading">ILVA COMMERCE & SCIENCE COLLEGE,INDORE</h1>
+    </div>
+    <div class="right">
+    <h4>Indore 452 008(M.P.)</h4>
+    <h4>DAVV Affiliated</h4>
+    </div>
+    </header>
+    <div><ul class="navbar">
+        <center>
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="Gallery.html" class="active">GALLERY</a></li>
+        <li><a href="academics.html" class="active">ACADEMICS</a></li>
+        <li><a href="admission.html" class="active">ADMISSION</a></li>
+        <li><a href="contactus.html" class="active">CONTACT US</a></li></center>
+        </ul>
+        </div>
+</body>
+<body>
+    <h1><center>Student details</center></h1>
+    <hr>
+    <form >
+        <center><div>
+            
+            Name: <input type="text" name="name">
+        
+        </div><br>
+        <div>Preferred Course: <input type="text" name="Preferred Course"></div><br>
+        <div>Contact Number: <input type="number" name="Contact Number"> </div><br>
+        <div>Email ID:<input type="text"></div><br>
+        <div>DOB: <input type="date" name="D.O.B."></div><br>
+        <div> <input type="submit"name="submit">
+              <input type="reset" name="reset">
+        </div>
+    </center>
+
+
+    </form>
+</body>
+</html>
+
+    
+
+    
